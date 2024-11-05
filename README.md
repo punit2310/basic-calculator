@@ -17,9 +17,13 @@ This calculator app demonstrates the use of HTML, CSS, and JavaScript to create 
 
 To run this project locally:<br>
     1. Clone the repository:<br>
-        ```git clone https://github.com/punit2310/basic-calculator.git```
+```bash
+git clone https://github.com/punit2310/basic-calculator.git
+```
     2. Navigate to the project directory:<br>
-        ```cd basic-calculator```
+```bash
+cd basic-calculator
+```
     3. Open calculator.html in your web browser<br>
 
 **Usage**
@@ -31,9 +35,9 @@ To run this project locally:<br>
 
 **Technologies Used**
 
-- HTML - for structuring the app layout.
-- CSS - for styling the calculator interface.
-- JavaScript - for handling logic and interactivity.
+- **HTML** - for structuring the app layout.
+- **CSS** - for styling the calculator interface.
+- **JavaScript** - for handling logic and interactivity.
 
 **Future Improvements**
 
