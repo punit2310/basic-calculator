@@ -1,4 +1,4 @@
-# Calculator
+# Basic Calculator
 
 A simple calculator built using HTML, CSS, and JavaScript. This calculator performs basic arithmetic operations and provides a user-friendly interface for quick calculations.
 
