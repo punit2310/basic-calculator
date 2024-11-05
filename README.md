@@ -16,15 +16,11 @@ This calculator app demonstrates the use of HTML, CSS, and JavaScript to create 
 **Installation**
 
 To run this project locally:<br>
-    1. Clone the repository:
-        ```bash
-        git clone https://github.com/punit2310/basic-calculator.git
-        ```
-    2. Navigate to the project directory:
-        ```bash
-        cd basic-calculator
-        ```
-    3. Open calculator.html in your web browser
+    1. Clone the repository:<br>
+        ```git clone https://github.com/punit2310/basic-calculator.git```
+    2. Navigate to the project directory:<br>
+        ```cd basic-calculator```
+    3. Open calculator.html in your web browser<br>
 
 **Usage**
 
