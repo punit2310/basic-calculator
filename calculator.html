@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="calcBody">
+        <div class="inputField">
+          <input id="opration" type="text" disabled>
+          <input id="value" type="text" disabled>
+        </div>
+        <div class="equal">
+          <button id="backSpace">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
+          <button id="equal">
+            <i class="fa-solid fa-equals"></i>
+          </button>
+        </div>
+        <div class="containBtn">
+          <div class="numbtn">
+            <button id="numBtn">9</button>
+            <button id="numBtn">8</button>
+            <button id="numBtn">7</button>
+            <button id="numBtn">6</button>
+            <button id="numBtn">5</button>
+            <button id="numBtn">4</button>
+            <button id="numBtn">3</button>
+            <button id="numBtn">2</button>
+            <button id="numBtn">1</button>
+            <button id="clear">C</button>
+            <button id="numBtn">0</button>
+            <button id="numBtn">.</button>
+          </div>
+
+          <div class="oprBtn">
+            <button id="oprator">+</button>
+            <button id="oprator">-</button>
+            <button id="oprator">/</button>
+            <button id="oprator">*</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    --text: #DCDCDD;
+    --inputfield: #001427;
+    --button: #FF7477;
+    --border: #00a7c1;
+    --background: #0b5758;
+    --clacBg: #CDD1DE;
+    background-color: var(--background);
+}
+
+.main{
+    height: 80vh;
+    width: 55vh;
+    display: block;
+    margin-inline: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcBody{
+    height: 75vmin;
+    width: 50vmin;
+    background-color: var(--clacBg);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--border);
+}
+
+.inputField{
+    height: 15vmin;
+    width: 50vmin;
+    background-color: var(--inputfield);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.containUserValue,#opration,#value{
+    height: 7vmin;
+    width: 47vmin;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-size: 2rem;
+    text-align: end;
+}
+
+#value{
+    height: 4vmin;
+    width: 47vmin;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #a7a7a7cf;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+.containBtn{
+    height: 50vmin;
+    width: 50vmin;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.numbtn{
+    height: 45vmin;
+    width: 40vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#numBtn,#backSpace,#clear,#oprator,#equal{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 1.4rem;
+    border: none;
+    color: black;
+    background-color: var(--button);
+    font-size: 5vmin;
+    box-shadow: inset 0 0 10px #ac1d1f;
+    cursor: pointer;
+}
+
+#numBtn:active,#backSpace:active,#clear:active,#oprator:active,#equal:active{
+    box-shadow: inset 0 0 0 #ac1d1f;
+}
+
+.oprBtn{
+    height: 45vmin;
+    width: 13vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.equal{
+    display: flex;
+    justify-content: end;
+    width: 45vmin;
+    height: 12vmin;
+    align-items: center;
+    gap: 0.8rem;
+}
